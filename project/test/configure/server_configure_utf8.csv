@@ -1,0 +1,4 @@
+﻿服务器组编号(id:int:),名字(name:str:64),ip(ip:str:16),port(port:int:),db_ip(db_ip:str:16),db_port(db_port:int:),db_u(db_u:str:16),db_p(db_p:str:32),db(db:str:32),玩家上限(rolelimit:int:),主循环睡眠(sleep:int:),完成端口工作者线程(iocpworkers:int:),是否公开(isopen:enum:),公告(globalNtf:str:2048),是否允许注册(canRegister:enum:),是否新服(isNew:enum:)
+99,本地,127.0.0.1,8099,127.0.0.1,3306,root,root,pnl_db_test,2000,10,0,是,,是,是
+10,ubuntu测试区,192.168.0.101,8009,127.0.0.1,3306,root,root,pnl_db_test,2000,10,0,是,,是,是
+11,外网测试,139.196.45.142,8009,127.0.0.1,3306,root,ubunturoot,pnl_db_test,2000,10,0,是,,是,是
